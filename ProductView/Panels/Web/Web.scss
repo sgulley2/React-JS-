@@ -1,0 +1,80 @@
+﻿.productManagement .webPanel {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+
+    div.mainWeb {
+        margin: 15px;
+
+        p.heading {
+            margin-bottom: 20px;
+        }
+
+        div.input-group-addon {
+            min-width: 3em;
+        }
+
+        label {
+            text-align: unset;
+            font-weight: normal;
+        }
+
+        p.callout {
+            color: red;
+            margin: 0px;
+            display: none;
+            font-size: 9px;
+            position: relative;
+
+            &#name_error {
+                left: -21px;
+            }
+
+            &#start_error {
+                left: 9px;
+            }
+        }
+
+        textarea {
+            height: 39px;
+            resize: vertical;
+
+            &[readOnly] {
+                background-color: #f4f5ed;
+            }
+        }
+
+        select {
+            height: 39px;
+        }
+
+        input {
+            &.input-options {
+                height: 39px;
+            }
+        }
+
+        div#choices {
+            margin: 40px 0px 0px 620px;
+
+            button {
+                border-radius: 6px;
+                border: 1px solid lightgray;
+
+                &#clear {
+                    background-color: white;
+                }
+
+                &#submit_overrides {
+                    margin-left: 22px;
+                }
+            }
+        }
+    }
+
+    button.close {
+        margin-top: -11px;
+    }
+}

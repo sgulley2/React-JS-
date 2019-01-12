@@ -1,0 +1,118 @@
+﻿.productManagement .generalPanel {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+
+    div.row {
+        padding-top: 20px;
+
+        table {
+            margin-left: 10px;
+
+            td.lbl {
+                width: 14%;
+
+                span {
+                    top: -4px;
+                }
+            }
+
+            input {
+                width: 99%;
+                padding-left: 3px;
+                margin-bottom: 8px;
+                border-radius: 6px;
+                cursor: not-allowed;
+                border: 1px solid black;
+
+                &.short {
+                    width: 44%;
+                    margin-left: 1px;
+                    position: relative;
+                }
+
+                &.medium {
+                    width: 63%;
+                    margin-left: 4px;
+                }
+
+                &.extra-short {
+                    width: 20%;
+                }
+            }
+
+            div.intcodewrapper {
+                width: 22%;
+                min-width: 12%;
+                display: inline-block;
+
+                span {
+                    margin-left: 12%;
+                    text-align: center;
+                }
+            }
+
+            div.codewrapper {
+                width: 55%;
+                display: inline-block;
+
+                div.inputwrapper {
+                    width: 78%;
+                    display: inline-block;
+
+                    input {
+                        width: 100%;
+                    }
+                }
+            }
+
+            div.codewrapper2 {
+                width: 79%;
+                display: inline-block;
+
+                div.inputwrapper2 {
+                    width: 78%;
+                    display: inline-block;
+
+                    input {
+                        width: 99%;
+                    }
+                }
+            }
+        }
+
+        div.prod-options {
+            height: 280px;
+            padding-top: 2px;
+            padding-left: 8px;
+            overflow-y: scroll;
+            margin-right: 20px;
+            border: 1px solid black;
+
+            p {
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    table.lists {
+        width: 96%;
+        margin-top: 5px;
+        margin-left: 28px;
+        border: 1px solid black;
+
+        thead {
+            background-color: darkgray;
+
+            th {
+                border: 1px solid black;
+            }
+        }
+
+        td {
+            border: 1px solid black;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+﻿.productManagement .catattribPanel {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+
+    div.catattribPanel {
+        padding-top: 5px;
+    }
+
+    div.attributes {
+        width: 25%;
+        margin: 15px;
+        padding-left: 10px;
+
+        div.attrib-lbl {
+            width: 136px;
+            vertical-align: top;
+            display: inline-block;
+        }
+
+        ul {
+            width: 60%;
+            height: 144px;
+            overflow-y: scroll;
+            border: 1px solid black;
+            padding: 1px 0px 0px 6px;
+            margin: 0px 0px 0px 30px;
+        }
+    }
+}

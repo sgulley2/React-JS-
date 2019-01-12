@@ -1,0 +1,70 @@
+div.valuesmain.productManagement {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none; }
+
+.valuesmain.productManagement table {
+  width: 80%; }
+  .valuesmain.productManagement table tr {
+    font-size: 12px;
+    height: 30px;
+    color: #b6b6b6; }
+  .valuesmain.productManagement table tr.head {
+    color: black;
+    font-size: 14px;
+    font-family: Times New Roman;
+    background: #e0e0e0; }
+  .valuesmain.productManagement table tr.body:hover {
+    color: ghostwhite;
+    background: lightgray !important; }
+  .valuesmain.productManagement table tr.body:nth-child(odd) {
+    background: whitesmoke; }
+  .valuesmain.productManagement table tr.opts {
+    color: black; }
+  .valuesmain.productManagement table th {
+    font-weight: 500;
+    padding-left: 5px; }
+  .valuesmain.productManagement table td {
+    padding-left: 5px; }
+  .valuesmain.productManagement table td.name:hover {
+    color: black;
+    cursor: pointer; }
+  .valuesmain.productManagement table td:first-child {
+    width: 25%; }
+
+div.valuesmain.productManagement {
+  top: -26px;
+  position: relative; }
+
+.valuesmain.productManagement div.valuesbuttons {
+  margin-top: 40px; }
+
+.valuesmain.productManagement table.values {
+  width: 100%;
+  margin-top: 30px; }
+
+.valuesmain.productManagement td.values {
+  padding-left: 0px;
+  vertical-align: top; }
+
+.valuesmain.productManagement table tr {
+  color: black; }
+
+.valuesmain.productManagement input {
+  color: black;
+  padding-left: 3px; }
+
+.valuesmain.productManagement input.name {
+  width: 300px; }
+
+.valuesmain.productManagement input.code {
+  width: 70px;
+  text-transform: lowercase; }
+
+.valuesmain.productManagement div.values p {
+  margin-bottom: 3px; }
+
+.valuesmain.productManagement p.codelen {
+  margin-top: 3px; }

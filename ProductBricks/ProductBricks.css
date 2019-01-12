@@ -1,0 +1,160 @@
+.productManagement .product-bricks {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none; }
+  .productManagement .product-bricks div.sk-spinner {
+    top: 300px;
+    width: 53%;
+    float: right;
+    z-index: 1000;
+    position: relative; }
+  .productManagement .product-bricks div.productBricks {
+    width: 50%;
+    vertical-align: top;
+    display: inline-block; }
+  .productManagement .product-bricks div.button {
+    width: 50%;
+    margin-top: 8px;
+    vertical-align: top;
+    display: inline-block; }
+  .productManagement .product-bricks tr.body:hover {
+    color: ghostwhite;
+    background: lightgray !important;
+    cursor: pointer; }
+  .productManagement .product-bricks i.bricks {
+    cursor: pointer;
+    padding-top: 3px;
+    font-size: 20px !important; }
+  .productManagement .product-bricks div.brickslist-error {
+    top: 300px;
+    left: 700px;
+    width: 400px;
+    height: 156px;
+    position: absolute;
+    border-radius: 4px;
+    border: 2px solid deepskyblue; }
+  .productManagement .product-bricks div.error-blk {
+    padding-left: 20px;
+    margin-bottom: 30px; }
+  .productManagement .product-bricks div.error-msg {
+    padding-top: 4px;
+    vertical-align: top;
+    display: inline-block; }
+  .productManagement .product-bricks div.error-msg.icon {
+    width: 10%; }
+  .productManagement .product-bricks div.error-msg.msg {
+    width: 90%;
+    padding-left: 6px; }
+  .productManagement .product-bricks i.fa-times-circle {
+    color: red;
+    font-size: 30px; }
+  .productManagement .product-bricks p.error {
+    padding: 4px;
+    background-color: deepskyblue; }
+  .productManagement .product-bricks button.error {
+    width: 80px;
+    float: none;
+    color: black;
+    padding: 4px;
+    margin: auto;
+    display: block;
+    background-color: white;
+    border: 1px solid deepskyblue; }
+  .productManagement .product-bricks div.sk-spinner {
+    top: 300px;
+    width: 53%;
+    float: right;
+    z-index: 1000;
+    position: relative; }
+  .productManagement .product-bricks div.product-error {
+    top: 300px;
+    left: 700px;
+    width: 400px;
+    height: 156px;
+    position: absolute;
+    border-radius: 4px;
+    border: 2px solid deepskyblue; }
+    .productManagement .product-bricks div.product-error p {
+      padding: 4px;
+      background-color: deepskyblue; }
+    .productManagement .product-bricks div.product-error div.error-blk {
+      padding-left: 20px;
+      margin-bottom: 30px; }
+      .productManagement .product-bricks div.product-error div.error-blk div.error-msg {
+        padding-top: 4px;
+        vertical-align: top;
+        display: inline-block; }
+        .productManagement .product-bricks div.product-error div.error-blk div.error-msg.icon {
+          color: red;
+          width: 10%;
+          font-size: 30px; }
+        .productManagement .product-bricks div.product-error div.error-blk div.error-msg.msg {
+          width: 90%;
+          padding-left: 6px; }
+    .productManagement .product-bricks div.product-error button {
+      width: 80px;
+      float: none;
+      color: black;
+      padding: 4px;
+      margin: auto;
+      display: block;
+      background-color: white;
+      border: 1px solid deepskyblue; }
+  .productManagement .product-bricks div.headWrapper div.product {
+    width: 50%;
+    vertical-align: top;
+    display: inline-block; }
+  .productManagement .product-bricks div.headWrapper div.button {
+    width: 50%;
+    margin-top: 15px;
+    display: inline-block; }
+  .productManagement .product-bricks div.actiontooltips {
+    position: relative;
+    display: inline-block; }
+    .productManagement .product-bricks div.actiontooltips:nth-child(2) {
+      margin-left: 4px; }
+    .productManagement .product-bricks div.actiontooltips i {
+      color: black;
+      cursor: pointer;
+      padding-top: 3px;
+      font-size: 20px !important; }
+  .productManagement .product-bricks div.actiontooltips span.actiontooltips_text {
+    visibility: hidden;
+    width: 35px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 252%;
+    margin-left: -60px;
+    border: 1px solid lightgray; }
+  .productManagement .product-bricks div.actiontooltips:hover span.actiontooltips_text {
+    visibility: visible; }
+  .productManagement .product-bricks div.actiontooltips span.actiontooltips_text::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white transparent transparent transparent; }
+  .productManagement .product-bricks table {
+    width: 100%; }
+    .productManagement .product-bricks table tr.body:hover {
+      color: ghostwhite;
+      background: lightgray !important; }
+    .productManagement .product-bricks table tr.body:nth-child(odd) {
+      background: whitesmoke; }
+    .productManagement .product-bricks table tr td {
+      cursor: default; }
+      .productManagement .product-bricks table tr td.name:hover {
+        cursor: pointer; }
+  .productManagement .product-bricks i:hover {
+    cursor: pointer; }

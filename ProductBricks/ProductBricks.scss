@@ -1,0 +1,88 @@
+﻿.productManagement .product-bricks {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+
+    @import "../styles/_loading.scss";
+
+    div.productBricks {
+        width: 50%;
+        vertical-align: top;
+        display: inline-block;
+    }
+
+    div.button {
+        width: 50%;
+        margin-top: 8px;
+        vertical-align: top;
+        display: inline-block;
+    }
+
+    // Should maybe be moved in to a higher level style
+    tr.body:hover {
+        color: ghostwhite;
+        background: lightgray !important;
+        cursor: pointer;
+    }
+
+    i.bricks {
+        cursor: pointer;
+        padding-top: 3px;
+        font-size: 20px !important;
+    }
+
+    div.brickslist-error {
+        top: 300px;
+        left: 700px;
+        width: 400px;
+        height: 156px;
+        position: absolute;
+        border-radius: 4px;
+        border: 2px solid deepskyblue;
+    }
+
+    div.error-blk {
+        padding-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    div.error-msg {
+        padding-top: 4px;
+        vertical-align: top;
+        display: inline-block;
+    }
+
+    div.error-msg.icon {
+        width: 10%;
+    }
+
+    div.error-msg.msg {
+        width: 90%;
+        padding-left: 6px;
+    }
+
+    i.fa-times-circle {
+        color: red;
+        font-size: 30px;
+    }
+
+    p.error {
+        padding: 4px;
+        background-color: deepskyblue;
+    }
+
+    button.error {
+        width: 80px;
+        float: none;
+        color: black;
+        padding: 4px;
+        margin: auto;
+        display: block;
+        background-color: white;
+        border: 1px solid deepskyblue;
+    }
+   // Need to investigate this more
+   @import "../styles/_main.scss";
+}

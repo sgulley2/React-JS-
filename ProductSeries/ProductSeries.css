@@ -1,0 +1,160 @@
+.product-series {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none; }
+  .product-series div.sk-spinner {
+    top: 300px;
+    width: 53%;
+    float: right;
+    z-index: 1000;
+    position: relative; }
+  .product-series div.productSeries {
+    width: 50%;
+    vertical-align: top;
+    display: inline-block; }
+  .product-series div.button {
+    width: 50%;
+    margin-top: 8px;
+    vertical-align: top;
+    display: inline-block; }
+  .product-series tr.body:hover {
+    color: ghostwhite;
+    background: lightgray !important;
+    cursor: pointer; }
+  .product-series i.series {
+    cursor: pointer;
+    padding-top: 3px;
+    font-size: 20px !important; }
+  .product-series div.serieslist-error {
+    top: 300px;
+    left: 700px;
+    width: 400px;
+    height: 156px;
+    position: absolute;
+    border-radius: 4px;
+    border: 2px solid deepskyblue; }
+  .product-series div.error-blk {
+    padding-left: 20px;
+    margin-bottom: 30px; }
+  .product-series div.error-msg {
+    padding-top: 4px;
+    vertical-align: top;
+    display: inline-block; }
+  .product-series div.error-msg.icon {
+    width: 10%; }
+  .product-series div.error-msg.msg {
+    width: 90%;
+    padding-left: 6px; }
+  .product-series i.fa-times-circle {
+    color: red;
+    font-size: 30px; }
+  .product-series p.error {
+    padding: 4px;
+    background-color: deepskyblue; }
+  .product-series button.error {
+    width: 80px;
+    float: none;
+    color: black;
+    padding: 4px;
+    margin: auto;
+    display: block;
+    background-color: white;
+    border: 1px solid deepskyblue; }
+  .product-series div.sk-spinner {
+    top: 300px;
+    width: 53%;
+    float: right;
+    z-index: 1000;
+    position: relative; }
+  .product-series div.product-error {
+    top: 300px;
+    left: 700px;
+    width: 400px;
+    height: 156px;
+    position: absolute;
+    border-radius: 4px;
+    border: 2px solid deepskyblue; }
+    .product-series div.product-error p {
+      padding: 4px;
+      background-color: deepskyblue; }
+    .product-series div.product-error div.error-blk {
+      padding-left: 20px;
+      margin-bottom: 30px; }
+      .product-series div.product-error div.error-blk div.error-msg {
+        padding-top: 4px;
+        vertical-align: top;
+        display: inline-block; }
+        .product-series div.product-error div.error-blk div.error-msg.icon {
+          color: red;
+          width: 10%;
+          font-size: 30px; }
+        .product-series div.product-error div.error-blk div.error-msg.msg {
+          width: 90%;
+          padding-left: 6px; }
+    .product-series div.product-error button {
+      width: 80px;
+      float: none;
+      color: black;
+      padding: 4px;
+      margin: auto;
+      display: block;
+      background-color: white;
+      border: 1px solid deepskyblue; }
+  .product-series div.headWrapper div.product {
+    width: 50%;
+    vertical-align: top;
+    display: inline-block; }
+  .product-series div.headWrapper div.button {
+    width: 50%;
+    margin-top: 15px;
+    display: inline-block; }
+  .product-series div.actiontooltips {
+    position: relative;
+    display: inline-block; }
+    .product-series div.actiontooltips:nth-child(2) {
+      margin-left: 4px; }
+    .product-series div.actiontooltips i {
+      color: black;
+      cursor: pointer;
+      padding-top: 3px;
+      font-size: 20px !important; }
+  .product-series div.actiontooltips span.actiontooltips_text {
+    visibility: hidden;
+    width: 35px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 252%;
+    margin-left: -60px;
+    border: 1px solid lightgray; }
+  .product-series div.actiontooltips:hover span.actiontooltips_text {
+    visibility: visible; }
+  .product-series div.actiontooltips span.actiontooltips_text::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white transparent transparent transparent; }
+  .product-series table {
+    width: 100%; }
+    .product-series table tr.body:hover {
+      color: ghostwhite;
+      background: lightgray !important; }
+    .product-series table tr.body:nth-child(odd) {
+      background: whitesmoke; }
+    .product-series table tr td {
+      cursor: default; }
+      .product-series table tr td.name:hover {
+        cursor: pointer; }
+  .product-series i:hover {
+    cursor: pointer; }

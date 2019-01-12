@@ -1,0 +1,140 @@
+﻿@import "../styles/_inputTable.scss";
+
+.create-edit-series {
+
+    span.required {
+        font-size: 10px;
+    }
+
+    input#name {
+        width: 275px;
+        padding-left: 3px;
+    }
+
+    table.opts td {
+        padding-top: 14px;
+        vertical-align: top;
+    }
+
+    div[skupublished="1"] {
+        background-color: darkgray;
+    }
+
+    div.opts-box {
+        width: 50%;
+        vertical-align: top;
+        display: inline-block;
+    }
+
+    div.opts-box p {
+        margin: 8px 0px 2px 14px;
+
+        &.brick-error {
+            color: red;
+            width: 80%;
+            margin: 0px;
+            font-size: 10px;
+        }
+    }
+
+    div.opts-box-buttons {
+        width: 20%;
+        vertical-align: top;
+        display: inline-block;
+    }
+
+    select.multibox {
+        width: 80%;
+        height: 122px;
+        overflow-y: scroll;
+        float: left;
+    }
+
+    option.series:hover {
+        color: white;
+        background-color: lightgray;
+    }
+
+    ul.series {
+        width: 80%;
+        display: inline-block;
+        list-style-type: none;
+        height: auto;
+    }
+    // @import "../styles/_buttons.scss";
+    li.series:hover {
+        color: white;
+        background-color: lightgray;
+    }
+
+    li.series.selected {
+        color: white;
+        background-color: dodgerblue;
+    }
+
+    button.multibox {
+        float: none;
+        width: 32px;
+        height: 26px;
+        font-size: 16px;
+        margin-left: 4px;
+        margin-bottom: 6px;
+        vertical-align: top;
+    }
+
+    button.multibox i {
+        vertical-align: top;
+        margin-top: -2.5px;
+    }
+
+    div.ser-error {
+        top: 74px;
+        left: 710px;
+        width: 400px;
+        height: 156px;
+        position: absolute;
+        border-radius: 4px;
+        border: 2px solid deepskyblue;
+    }
+
+    div.error-blk {
+        padding-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    div.error-msg {
+        padding-top: 4px;
+        vertical-align: top;
+        display: inline-block;
+    }
+
+    div.error-msg.icon {
+        width: 10%;
+    }
+
+    div.error-msg.msg {
+        width: 90%;
+        padding-left: 6px;
+    }
+
+    i.fa-times-circle {
+        color: red;
+        font-size: 30px;
+    }
+
+    p.error {
+        padding: 4px;
+        background-color: deepskyblue;
+    }
+
+    button.error {
+        width: 80px;
+        float: none;
+        color: black;
+        padding: 4px;
+        margin: auto;
+        display: block;
+        background-color: white;
+        border: 1px solid deepskyblue;
+    }
+}

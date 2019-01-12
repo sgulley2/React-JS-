@@ -1,0 +1,55 @@
+﻿@import "../styles/_behavior.scss";
+@import "../styles/_inputTable.scss";
+
+div.valuesmain.productManagement {
+    top: -26px;
+    position: relative;
+
+    @extend %user-select;
+}
+
+.valuesmain.productManagement {
+    div.valuesbuttons {
+        margin-top: 40px;
+    }
+
+    table.values {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    td.values {
+        padding-left: 0px;
+        vertical-align: top;
+    }
+
+    table {
+        @extend %input-table;
+
+        tr {
+            color: black;
+        }
+    }
+
+    input {
+        color: black;
+        padding-left: 3px;
+    }
+
+    input.name {
+        width: 300px;
+    }
+
+    input.code {
+        width: 70px;
+        text-transform: lowercase;
+    }
+
+    div.values p {
+        margin-bottom: 3px;
+    }
+
+    p.codelen {
+        margin-top: 3px;
+    }
+}

@@ -1,0 +1,73 @@
+.productManagement .generalPanel {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none; }
+  .productManagement .generalPanel div.row {
+    padding-top: 20px; }
+    .productManagement .generalPanel div.row table {
+      margin-left: 10px; }
+      .productManagement .generalPanel div.row table td.lbl {
+        width: 14%; }
+        .productManagement .generalPanel div.row table td.lbl span {
+          top: -4px; }
+      .productManagement .generalPanel div.row table input {
+        width: 99%;
+        padding-left: 3px;
+        margin-bottom: 8px;
+        border-radius: 6px;
+        cursor: not-allowed;
+        border: 1px solid black; }
+        .productManagement .generalPanel div.row table input.short {
+          width: 44%;
+          margin-left: 1px;
+          position: relative; }
+        .productManagement .generalPanel div.row table input.medium {
+          width: 63%;
+          margin-left: 4px; }
+        .productManagement .generalPanel div.row table input.extra-short {
+          width: 20%; }
+      .productManagement .generalPanel div.row table div.intcodewrapper {
+        width: 22%;
+        min-width: 12%;
+        display: inline-block; }
+        .productManagement .generalPanel div.row table div.intcodewrapper span {
+          margin-left: 12%;
+          text-align: center; }
+      .productManagement .generalPanel div.row table div.codewrapper {
+        width: 55%;
+        display: inline-block; }
+        .productManagement .generalPanel div.row table div.codewrapper div.inputwrapper {
+          width: 78%;
+          display: inline-block; }
+          .productManagement .generalPanel div.row table div.codewrapper div.inputwrapper input {
+            width: 100%; }
+      .productManagement .generalPanel div.row table div.codewrapper2 {
+        width: 79%;
+        display: inline-block; }
+        .productManagement .generalPanel div.row table div.codewrapper2 div.inputwrapper2 {
+          width: 78%;
+          display: inline-block; }
+          .productManagement .generalPanel div.row table div.codewrapper2 div.inputwrapper2 input {
+            width: 99%; }
+    .productManagement .generalPanel div.row div.prod-options {
+      height: 280px;
+      padding-top: 2px;
+      padding-left: 8px;
+      overflow-y: scroll;
+      margin-right: 20px;
+      border: 1px solid black; }
+      .productManagement .generalPanel div.row div.prod-options p {
+        margin-bottom: 5px; }
+  .productManagement .generalPanel table.lists {
+    width: 96%;
+    margin-top: 5px;
+    margin-left: 28px;
+    border: 1px solid black; }
+    .productManagement .generalPanel table.lists thead {
+      background-color: darkgray; }
+      .productManagement .generalPanel table.lists thead th {
+        border: 1px solid black; }
+    .productManagement .generalPanel table.lists td {
+      border: 1px solid black; }

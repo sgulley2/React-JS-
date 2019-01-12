@@ -1,0 +1,111 @@
+.create-edit-series span.required {
+  font-size: 10px; }
+
+.create-edit-series input#name {
+  width: 275px;
+  padding-left: 3px; }
+
+.create-edit-series table.opts td {
+  padding-top: 14px;
+  vertical-align: top; }
+
+.create-edit-series div[skupublished="1"] {
+  background-color: darkgray; }
+
+.create-edit-series div.opts-box {
+  width: 50%;
+  vertical-align: top;
+  display: inline-block; }
+
+.create-edit-series div.opts-box p {
+  margin: 8px 0px 2px 14px; }
+  .create-edit-series div.opts-box p.brick-error {
+    color: red;
+    width: 80%;
+    margin: 0px;
+    font-size: 10px; }
+
+.create-edit-series div.opts-box-buttons {
+  width: 20%;
+  vertical-align: top;
+  display: inline-block; }
+
+.create-edit-series select.multibox {
+  width: 80%;
+  height: 122px;
+  overflow-y: scroll;
+  float: left; }
+
+.create-edit-series option.series:hover {
+  color: white;
+  background-color: lightgray; }
+
+.create-edit-series ul.series {
+  width: 80%;
+  display: inline-block;
+  list-style-type: none;
+  height: auto; }
+
+.create-edit-series li.series:hover {
+  color: white;
+  background-color: lightgray; }
+
+.create-edit-series li.series.selected {
+  color: white;
+  background-color: dodgerblue; }
+
+.create-edit-series button.multibox {
+  float: none;
+  width: 32px;
+  height: 26px;
+  font-size: 16px;
+  margin-left: 4px;
+  margin-bottom: 6px;
+  vertical-align: top; }
+
+.create-edit-series button.multibox i {
+  vertical-align: top;
+  margin-top: -2.5px; }
+
+.create-edit-series div.ser-error {
+  top: 74px;
+  left: 710px;
+  width: 400px;
+  height: 156px;
+  position: absolute;
+  border-radius: 4px;
+  border: 2px solid deepskyblue; }
+
+.create-edit-series div.error-blk {
+  padding-left: 20px;
+  margin-bottom: 30px; }
+
+.create-edit-series div.error-msg {
+  padding-top: 4px;
+  vertical-align: top;
+  display: inline-block; }
+
+.create-edit-series div.error-msg.icon {
+  width: 10%; }
+
+.create-edit-series div.error-msg.msg {
+  width: 90%;
+  padding-left: 6px; }
+
+.create-edit-series i.fa-times-circle {
+  color: red;
+  font-size: 30px; }
+
+.create-edit-series p.error {
+  padding: 4px;
+  background-color: deepskyblue; }
+
+.create-edit-series button.error {
+  width: 80px;
+  float: none;
+  color: black;
+  padding: 4px;
+  margin: auto;
+  display: block;
+  background-color: white;
+  border: 1px solid deepskyblue; }
